@@ -17,5 +17,3 @@ Once you have filled in your personal information, you can click the Download bu
 ## Preview
 
 ![PC](./imgs/website-pc.jpeg)
-
-<img src="./imgs/website-mobile.jpg" alt="Mobile" style="zoom: 33%;" />
