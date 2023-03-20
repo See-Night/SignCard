@@ -65,8 +65,8 @@ class App extends React.Component {
   render(): React.ReactNode {
     return (
       <div id='app' className='w-full h-full flex flex-col justify-center items-center bg-gray-50'>
-        <div id='title' className='w-full h-40 md:hidden lg:h-40 flex justify-center items-center font-bold text-4xl'>SignCard</div>
-        <div id='container' className='w-full h-full max-h-[50rem] xl:w-5/6 2k:w-2/3 md:h-[calc(100%-10rem)] lg:pb-16 flex flex-col md:flex-row'>
+        <div id='title' className='w-full h-40 lg:h-40 flex md:hidden lg:flex justify-center items-center font-bold text-4xl'>SignCard</div>
+        <div id='container' className='w-full h-full max-h-[50rem] xl:w-5/6 2k:w-2/3 md:h-full lg:pb-16 flex flex-col md:flex-row'>
           <ControlPanel change={this.infoOnChange}></ControlPanel>
           <Card name={this.state.name} email={this.state.email} phone={this.state.phone} image={this.state.image} address={this.state.address} website={this.state.website} links={this.state.links} job={this.state.job} company={this.state.company} department={this.state.department}></Card>
         </div>
